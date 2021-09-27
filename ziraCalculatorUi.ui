@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1428</width>
+    <height>737</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>LOG VIEW</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>iStock-872962368-chat-bots-removebg-preview.png</normaloff>iStock-872962368-chat-bots-removebg-preview.png</iconset>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border: 2px solid black;
+border-radius:30px;
+ 
+background-color:rgb(203, 203, 203); </string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonTextOnly</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1411</width>
+      <height>681</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white</string>
+    </property>
+    <property name="tabShape">
+     <enum>QTabWidget::Triangular</enum>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>25</width>
+      <height>16</height>
+     </size>
+    </property>
+    <property name="tabsClosable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="icon">
+      <iconset>
+       <normaloff>copy.png</normaloff>copy.png</iconset>
+     </attribute>
+     <attribute name="title">
+      <string>CURRENT LOG</string>
+     </attribute>
+     <widget class="QDial" name="dial_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>50</width>
+        <height>64</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>60</y>
+        <width>1391</width>
+        <height>591</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:black</string>
+      </property>
+      <property name="rowCount">
+       <number>20</number>
+      </property>
+      <property name="columnCount">
+       <number>14</number>
+      </property>
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>96</number>
+      </attribute>
+      <attribute name="verticalHeaderHighlightSections">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="verticalHeaderMinimumSectionSize">
+       <number>16</number>
+      </attribute>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <column>
+       <property name="text">
+        <string>ENTRY ID</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>BET ID</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>TOTAL BALLS</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>BET TYPE</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>TIME PLACED</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>LOST STREAK</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>INVESTMENT</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>WON OR LOST</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>AMT. LOST</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>TOTAL PROFIT</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>ACCT. BAL</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>CURR. TIME</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>CURR DATE</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>MOST STREAK</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+     </widget>
+     <widget class="QSplitter" name="splitter_2">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>30</y>
+        <width>295</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <family>ø</family>
+         <pointsize>9</pointsize>
+         <weight>10</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:black;
+font: 87 9pt &quot;ø&quot;;
+border:0px;</string>
+       </property>
+       <property name="text">
+        <string>TOTAL NUMBER OF  BALLS :</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="totalBallsInput_2">
+       <property name="styleSheet">
+        <string notr="true">color:black;
+font: 87 9pt &quot;ø&quot;;</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="runRound_2">
+       <property name="styleSheet">
+        <string notr="true">border: 2px solid black;
+border-radius:20px;
+color:white;
+font: 87 9pt &quot;ø&quot;;
+background-color:black;
+</string>
+       </property>
+       <property name="text">
+        <string>RUN</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="icon">
+      <iconset>
+       <normaloff>color.png</normaloff>color.png</iconset>
+     </attribute>
+     <attribute name="title">
+      <string>HISTORY</string>
+     </attribute>
+     <widget class="QDial" name="dial">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>50</width>
+        <height>64</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="runRound">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>20</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid black;
+border-radius:20px;
+color:white;
+font: 87 9pt &quot;ø&quot;;
+background-color:black;
+</string>
+      </property>
+      <property name="text">
+       <string>RUN</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>-20</x>
+        <y>60</y>
+        <width>1381</width>
+        <height>511</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:black</string>
+      </property>
+      <property name="rowCount">
+       <number>20</number>
+      </property>
+      <property name="columnCount">
+       <number>14</number>
+      </property>
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>96</number>
+      </attribute>
+      <attribute name="verticalHeaderHighlightSections">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="verticalHeaderMinimumSectionSize">
+       <number>16</number>
+      </attribute>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <column>
+       <property name="text">
+        <string>ENTRY ID</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>BET ID</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>TOTAL BALLS</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>BET TYPE</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>TIME PLACED</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>LOST STREAK</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>INVESTMENT</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>WON OR LOST</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>AMT. LOST</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>TOTAL PROFIT</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>ACCT. BAL</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>CURR. TIME</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>CURR DATE</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>MOST STREAK</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+     </widget>
+     <widget class="QSplitter" name="splitter">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>19</y>
+        <width>199</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <family>ø</family>
+         <pointsize>9</pointsize>
+         <weight>10</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:black;
+font: 87 9pt &quot;ø&quot;;
+border:0px;</string>
+       </property>
+       <property name="text">
+        <string>TOTAL NUMBER OF  BALLS :</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="totalBallsInput">
+       <property name="styleSheet">
+        <string notr="true">color:black;
+font: 87 9pt &quot;ø&quot;;</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1428</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

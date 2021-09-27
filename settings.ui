@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>437</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>441</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>robot.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>90</y>
+     <width>151</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../PycharmProjects/pandas/cogs.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stopBot_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>230</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:3px solid #fff;
+border-radius:2px;
+color:white;
+background-color:green;
+ 
+
+</string>
+   </property>
+   <property name="text">
+    <string>Save Changes</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>91</width>
+     <height>88</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>411</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI Semilight</family>
+     <pointsize>13</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white</string>
+   </property>
+   <property name="text">
+    <string>MONEYMANAGEMENT - MASANIELLO SETTINGS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stopBot_3">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>230</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:3px solid #fff;
+border-radius:2px;
+color:white;
+background-color:red;
+ 
+
+</string>
+   </property>
+   <property name="text">
+    <string>CLOSE!</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>91</width>
+     <height>88</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>75</y>
+     <width>146</width>
+     <height>108</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QComboBox" name="comboBox">
+      <item>
+       <property name="text">
+        <string>1000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>5000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>10000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>15000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>20000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>30000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>40000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>50000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>60000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>70000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>80000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>90000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>100000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>110000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>120000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>130000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>140000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>150000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>160000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>170000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>180000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>190000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>200000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>225000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>250000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>275000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>300000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>350000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>400000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>450000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>500000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>550000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>600000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>650000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>700000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>750000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>800000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>850000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>900000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>950000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>1000000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>1500000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2000000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2500000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>3000000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>3500000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>4000000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>4500000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>5000000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>6000000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>7000000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>8000000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>9000000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>1000000</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="initialCapital_3">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string>Envisioned Wins...</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid black; 
+border-radius:3px;</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="cursorPosition">
+       <number>0</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="placeholderText">
+       <string>Total events...</string>
+      </property>
+      <property name="cursorMoveStyle">
+       <enum>Qt::LogicalMoveStyle</enum>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="initialCapital_4">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string>Envisioned Wins...</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid black; 
+border-radius:3px;</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="cursorPosition">
+       <number>0</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="placeholderText">
+       <string>Expected Wins</string>
+      </property>
+      <property name="cursorMoveStyle">
+       <enum>Qt::LogicalMoveStyle</enum>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QDoubleSpinBox" name="doubleSpinBox"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>67</width>
+     <height>96</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:red</string>
+      </property>
+      <property name="text">
+       <string>Capital:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:red</string>
+      </property>
+      <property name="text">
+       <string>Events:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_6">
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:red</string>
+      </property>
+      <property name="text">
+       <string>Needed:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_7">
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:red</string>
+      </property>
+      <property name="text">
+       <string>Odds:</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

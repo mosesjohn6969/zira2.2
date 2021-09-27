@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ZIRA</class>
+ <widget class="QMainWindow" name="ZIRA">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>923</width>
+    <height>595</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ZIRA v1.0</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>iStock-872962368-chat-bots-removebg-preview.png</normaloff>iStock-872962368-chat-bots-removebg-preview.png</iconset>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-30</x>
+      <y>0</y>
+      <width>951</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/newPrefix/robot.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>robot.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="demo">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>306</y>
+      <width>111</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:9px solid #fff;
+border-radius:10px;
+color:white;
+border-radius:70px;
+background-color:rgb(65, 66, 68)
+
+ </string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>demo-blue-glossy-ball-web-icon-on-white-background-round-3d-render-J9F29G-removebg-preview.png</normaloff>demo-blue-glossy-ball-web-icon-on-white-background-round-3d-render-J9F29G-removebg-preview.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>118</width>
+      <height>167</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="runBot">
+    <property name="geometry">
+     <rect>
+      <x>427</x>
+      <y>304</y>
+      <width>111</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>30</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 9px solid #fff;
+border-radius:10px;
+color:white;
+border-radius:70px;
+
+background-color:rgb(65, 66, 68)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>images-removebg-preview (5).png</normaloff>
+      <selectedon>cogs.png</selectedon>images-removebg-preview (5).png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>90</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>40</y>
+      <width>801</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>42</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white;</string>
+    </property>
+    <property name="text">
+     <string>PERSONAL WEB ASSISTANT</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="userName">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>150</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid black; 
+border-radius:10px;</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Normal</enum>
+    </property>
+    <property name="cursorPosition">
+     <number>0</number>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>username...</string>
+    </property>
+    <property name="cursorMoveStyle">
+     <enum>Qt::LogicalMoveStyle</enum>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>30</y>
+      <width>921</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid #fff;
+border-radius:5px; 
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="password">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>190</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid black; 
+border-radius:10px;</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>password...</string>
+    </property>
+    <property name="cursorMoveStyle">
+     <enum>Qt::VisualMoveStyle</enum>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stopBot">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>450</y>
+      <width>111</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:15px solid #fff;
+border-radius:20px;
+color:white;
+background-color:red;
+ 
+
+</string>
+    </property>
+    <property name="text">
+     <string>STOP!</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>91</width>
+      <height>88</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>230</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white;</string>
+    </property>
+    <property name="text">
+     <string>Amount:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="setting">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>120</y>
+      <width>161</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>cogs.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>120</y>
+      <width>681</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid #fff;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>120</y>
+      <width>191</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid #fff;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>120</y>
+      <width>41</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:2px solid #fff;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>80</y>
+      <width>581</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/newPrefix/images-removebg-preview (2).png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>images-removebg-preview (2).png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_10">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>440</y>
+      <width>851</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid #fff;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_11">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>550</y>
+      <width>921</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid #fff;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QCalendarWidget" name="calendarWidget">
+    <property name="geometry">
+     <rect>
+      <x>3</x>
+      <y>295</y>
+      <width>251</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <family>OCR A Extended</family>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>SizeAllCursor</cursorShape>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::DefaultContextMenu</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="logbtn">
+    <property name="geometry">
+     <rect>
+      <x>427</x>
+      <y>450</y>
+      <width>111</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>19</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 20px solid #fff;
+border-radius:20px;
+color:white;
+background-color:black;</string>
+    </property>
+    <property name="text">
+     <string>LOG</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>290</y>
+      <width>261</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid #fff;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="autoRepeatInterval">
+     <number>100</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>368</x>
+      <y>360</y>
+      <width>421</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 9px solid white;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_12">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>290</y>
+      <width>601</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid #fff; 
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="amount">
+    <property name="geometry">
+     <rect>
+      <x>108</x>
+      <y>235</y>
+      <width>69</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>50</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>100</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>250</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>500</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1000</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2500</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5000</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10000</string>
+     </property>
+    </item>
+   </widget>
+   <zorder>pushButton_10</zorder>
+   <zorder>label</zorder>
+   <zorder>pushButton_3</zorder>
+   <zorder>pushButton_5</zorder>
+   <zorder>setting</zorder>
+   <zorder>pushButton_6</zorder>
+   <zorder>pushButton_7</zorder>
+   <zorder>userName</zorder>
+   <zorder>password</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_5</zorder>
+   <zorder>pushButton_11</zorder>
+   <zorder>label_2</zorder>
+   <zorder>pushButton_8</zorder>
+   <zorder>pushButton_12</zorder>
+   <zorder>pushButton_9</zorder>
+   <zorder>amount</zorder>
+   <zorder>calendarWidget</zorder>
+   <zorder>demo</zorder>
+   <zorder>logbtn</zorder>
+   <zorder>stopBot</zorder>
+   <zorder>runBot</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>923</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
